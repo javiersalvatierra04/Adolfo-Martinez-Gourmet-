@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Charcutería Adolfo Martínez Gourmet – Más de 40 años ofreciendo los mejores productos ibéricos y cárnicos en el corazón de Granada. Jamón ibérico, embutidos, elaborados y packs para celebraciones.">
+    <meta property="og:title" content="Adolfo Martínez Gourmet | Charcutería Premium en Granada">
+    <meta property="og:description" content="Más de 40 años seleccionando los mejores productos ibéricos en Granada. Jamones, embutidos, elaborados caseros y packs para eventos. Pedidos por WhatsApp.">
+    <meta property="og:type" content="website">
+    <title>Adolfo Martínez Gourmet | Charcutería Premium en Granada</title>
+
+    <link rel="preload" href="fonts/playfair-display.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/lato-400.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="styles.css">
+    <script>document.documentElement.classList.add('js');</script>
+
+    <!--
+      DATOS ESTRUCTURADOS (LocalBusiness) — DESACTIVADOS
+      Activar solo cuando el cliente confirme que todos los datos son reales:
+      nombre, dirección, teléfono, coordenadas y horario (sobre todo el viernes).
+      Para activarlos, quita esta línea de comentario y la de cierre.
+      Añade también "url" con el dominio definitivo e "image" con una foto real de la tienda.
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ButcherShop",
+      "name": "Adolfo Martínez Gourmet",
+      "description": "Charcutería gourmet y jamón ibérico en el centro de Granada desde 1984.",
+      "telephone": "+34958281687",
+      "foundingDate": "1984",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Calle San Juan de Dios, 50",
+        "postalCode": "18001",
+        "addressLocality": "Granada",
+        "addressRegion": "Granada",
+        "addressCountry": "ES"
+      },
+      "geo": { "@type": "GeoCoordinates", "latitude": 37.1773413, "longitude": -3.5985649 },
+      "openingHoursSpecification": [
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday"], "opens": "09:30", "closes": "14:30" },
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday"], "opens": "17:45", "closes": "20:45" },
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "09:30", "closes": "14:30" }
+      ],
+      "servesCuisine": "Ibérico",
+      "priceRange": "€€"
+    }
+    </script>
+    -->
+</head>
+<body>
+
+    <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+        <symbol id="icon-wa" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.554 4.118 1.524 5.847L.057 23.5l5.817-1.525A11.943 11.943 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.894a9.884 9.884 0 01-5.043-1.381l-.361-.214-3.752.984.999-3.648-.235-.374A9.86 9.86 0 012.106 12C2.106 6.577 6.577 2.106 12 2.106S21.894 6.577 21.894 12 17.423 21.894 12 21.894z"/></symbol>
+    </svg>
+
+    <!-- ======================== NAVBAR ======================== -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#inicio" class="nav-logo">
+                <span class="logo-text">Adolfo Martínez</span>
+                <span class="logo-subtitle">GOURMET · GRANADA</span>
+            </a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#celebraciones">Celebraciones</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#como-comprar">Cómo Comprar</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li>
+                    <a href="https://wa.me/34958281687?text=Hola%2C%20quisiera%20hacer%20un%20pedido%20en%20Adolfo%20Mart%C3%ADnez%20Gourmet" class="nav-cta" target="_blank" rel="noopener">
+                        Pedir ahora
+                    </a>
+                </li>
+            </ul>
+            <button class="hamburger" id="hamburger" aria-label="Abrir menú" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ======================== HERO ======================== -->
+    <section class="hero" id="inicio">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="hero-tag">Desde 1984 · Centro de Granada · <a href="https://www.google.com/maps/search/?api=1&amp;query=Adolfo+Mart%C3%ADnez+Gourmet%2C+Calle+San+Juan+de+Dios+50%2C+Granada" target="_blank" rel="noopener">4,8 ★ en Google</a></p>
+            <h1 class="hero-title">Charcutería gourmet y jamón ibérico <em>en Granada</em></h1>
+            <p class="hero-subtitle">Más de 40 años seleccionando los mejores jamones, embutidos ibéricos y elaborados caseros para ofrecerte una experiencia gastronómica única en el corazón de Granada.</p>
+            <div class="hero-buttons">
+                <a href="#productos" class="btn btn-primary">Ver productos</a>
+                <a href="https://wa.me/34958281687?text=Hola%2C%20quisiera%20hacer%20un%20pedido" class="btn btn-whatsapp" target="_blank" rel="noopener">
+                    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.554 4.118 1.524 5.847L.057 23.5l5.817-1.525A11.943 11.943 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.894a9.884 9.884 0 01-5.043-1.381l-.361-.214-3.752.984.999-3.648-.235-.374A9.86 9.86 0 012.106 12C2.106 6.577 6.577 2.106 12 2.106S21.894 6.577 21.894 12 17.423 21.894 12 21.894z"/></svg>
+                    Pedir por WhatsApp
+                </a>
+            </div>
+        </div>
+        <div class="hero-scroll" aria-hidden="true">
+            <span>Descubre más</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- ======================== BENEFICIOS ======================== -->
+    <section class="beneficios" aria-labelledby="beneficios-titulo">
+        <div class="container">
+            <h2 id="beneficios-titulo" class="visually-hidden">Por qué elegirnos</h2>
+            <div class="beneficios-grid">
+                <div class="beneficio-item">
+                    <div class="beneficio-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z"/></svg>
+                    </div>
+                    <h3>Calidad Garantizada</h3>
+                    <p><a href="https://www.google.com/maps/search/?api=1&amp;query=Adolfo+Mart%C3%ADnez+Gourmet%2C+Calle+San+Juan+de+Dios+50%2C+Granada" target="_blank" rel="noopener">4,8 sobre 5 en Google</a>. Cada pieza se selecciona con rigor para garantizar lo mejor del mercado.</p>
+                </div>
+                <div class="beneficio-item">
+                    <div class="beneficio-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                    </div>
+                    <h3>Producto Fresco Diario</h3>
+                    <p>Elaborados caseros preparados cada día: flamenquines, san jacobos, costillas y mucho más.</p>
+                </div>
+                <div class="beneficio-item">
+                    <div class="beneficio-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"/></svg>
+                    </div>
+                    <h3>Trato Personalizado</h3>
+                    <p>Más de 40 años atendiendo a nuestros clientes con dedicación. Te asesoramos siempre.</p>
+                </div>
+                <div class="beneficio-item">
+                    <div class="beneficio-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M8.25 18.75a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 01-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 00-3.213-9.193 2.056 2.056 0 00-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 00-10.026 0 1.106 1.106 0 00-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12"/></svg>
+                    </div>
+                    <h3>Recogida o Envío</h3>
+                    <p>Recoge en tienda en el centro de Granada o recibe tu pedido a domicilio con comodidad.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================== PRODUCTOS ======================== -->
+    <section class="productos" id="productos">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Nuestra selección</span>
+                <h2 class="section-title">Productos Destacados</h2>
+                <p class="section-subtitle">Jamones de La Alpujarra y Guadix, embutidos ibéricos, elaborados caseros, quesos y entrantes para cualquier ocasión</p>
+            </div>
+
+            <div class="productos-tabs" role="tablist" aria-label="Categorías de productos">
+                <button class="tab-btn active" id="tab-jamones" data-tab="jamones" role="tab" aria-selected="true" aria-controls="panel-jamones">Jamones</button>
+                <button class="tab-btn" id="tab-embutidos" data-tab="embutidos" role="tab" aria-selected="false" aria-controls="panel-embutidos" tabindex="-1">Embutidos</button>
+                <button class="tab-btn" id="tab-elaborados" data-tab="elaborados" role="tab" aria-selected="false" aria-controls="panel-elaborados" tabindex="-1">Elaborados</button>
+                <button class="tab-btn" id="tab-quesos" data-tab="quesos" role="tab" aria-selected="false" aria-controls="panel-quesos" tabindex="-1">Quesos</button>
+                <button class="tab-btn" id="tab-entrantes" data-tab="entrantes" role="tab" aria-selected="false" aria-controls="panel-entrantes" tabindex="-1">Entrantes</button>
+            </div>
+
+            <div class="productos-grid is-active" id="panel-jamones" role="tabpanel" aria-labelledby="tab-jamones">
+                <article class="producto-card" style="animation-delay:0.00s">
+                    <div class="producto-img-wrapper">
+                        <img class="producto-img" src="https://images.unsplash.com/photo-1572788493895-3a9a445fe36e?w=520&q=82" alt="" loading="lazy" width="520" height="224">
+                        <span class="producto-badge">Estrella</span>
+                    </div>
+                    <div class="producto-info">
+                        <p class="producto-categoria">Jamones</p>
+                        <h3 class="producto-nombre">Jamón Ibérico 100% Bellota</h3>
+                        <p class="producto-descripcion">La pieza más selecta. Cerdo ibérico puro de montanera, curación mínima 36 meses. Grasa infiltrada con aroma inconfundible a bellota.</p>
+                        <div class="producto-footer">
+                            <span class="producto-precio">Consultar precio</span>
+                            <a href="https://wa.me/34958281687?text=Hola%2C%20me%20interesa%20%22Jam%C3%B3n%20Ib%C3%A9rico%20100%25%20Bellota%22.%20%C2%BFPueden%20informarme%20sobre%20precio%20y%20disponibilidad%3F" class="producto-btn" target="_blank" rel="noopener" aria-label="Pedir Jamón Ibérico 100% Bellota por WhatsApp"><svg class="icon-wa-sm" aria-hidden="true"><use href="#icon-wa"/></svg> Pedir</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="producto-card" style="animation-delay:0.08s">
+                    <div class="producto-img-wrapper">
+                        <img class="producto-img" src="https://images.unsplash.com/photo-1610995961454-1862ae1ee65b?w=520&q=82" alt="" loading="lazy" width="520" height="224">
+                    </div>
+                    <div class="producto-info">
+                        <p class="producto-categoria">Jamones</p>
+                        <h3 class="producto-nombre">Jamón Serrano Diego Martín</h3>
+                        <p class="producto-descripcion">De La Alpujarra granadina. Más de 30 años siendo fieles a este secadero de sierra. Curación natural con aire de montaña.</p>
+                        <div class="producto-footer">
+                            <span class="producto-precio">Consultar precio</span>
+                            <a href="https://wa.me/34958281687?text=Hola%2C%20me%20interesa%20%22Jam%C3%B3n%20Serrano%20Diego%20Mart%C3%ADn%22.%20%C2%BFPueden%20informarme%20sobre%20precio%20y%20disponibilidad%3F" class="producto-btn" target="_blank" rel="noopener" aria-label="Pedir Jamón Serrano Diego Martín por WhatsApp"><svg class="icon-wa-sm" aria-hidden="true"><use href="#icon-wa"/></svg> Pedir</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="producto-card" style="animation-delay:0.16s">
+                    <div class="producto-img-wrapper">
+                        <img class="producto-img" src="https://images.unsplash.com/photo-1625236602157-01a785251f0e?w=520&q=82" alt="" loading="lazy" width="520" height="224">
+                    </div>
+                    <div class="producto-info">
+                        <p class="producto-categoria">Jamones</p>
+                        <h3 class="producto-nombre">Jamón Serrano Granadul</h3>
+                        <p class="producto-descripcion">Jamón curado de Guadix. Sabor equilibrado, textura jugosa. Disponible entero al vacío, en tacos o loncheado.</p>
+                        <div class="producto-footer">
+                            <span class="producto-precio">Consultar precio</span>
+                            <a href="https://wa.me/34958281687?text=Hola%2C%20me%20interesa%20%22Jam%C3%B3n%20Serrano%20Granadul%22.%20%C2%BFPueden%20informarme%20sobre%20precio%20y%20disponibilidad%3F" class="producto-btn" target="_blank" rel="noopener" aria-label="Pedir Jamón Serrano Granadul por WhatsApp"><svg class="icon-wa-sm" aria-hidden="true"><use href="#icon-wa"/></svg> Pedir</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="producto-card" style="animation-delay:0.24s">
+                    <div class="producto-img-wrapper">
+                        <img class="producto-img" src="https://images.unsplash.com/photo-1732565432358-a8c95bc24ea3?w=520&q=82" alt="" loading="lazy" width="520" height="224">
+                        <span class="producto-badge">Premium</span>
+                    </div>
+                    <div class="producto-info">
+                        <p class="producto-categoria">Jamones</p>
+                        <h3 class="producto-nombre">Jamón Duroc Batalle</h3>
+                        <p class="producto-descripcion">Cerdo Duroc de alta infiltración grasa. Sabor suave y untuoso que lo diferencia del resto. Una opción premium muy apreciada.</p>
+                        <div class="producto-footer">
+                            <span class="producto-precio">Consultar precio</span>
+                            <a href="https://wa.me/34958281687?text=Hola%2C%20me%20interesa%20%22Jam%C3%B3n%20Duroc%20Batalle%22.%20%C2%BFPueden%20informarme%20sobre%20precio%20y%20disponibilidad%3F" class="producto-btn" target="_blank" rel="noopener" aria-label="Pedir Jamón Duroc Batalle por WhatsApp"><svg class="icon-wa-sm" aria-hidden="true"><use href="#icon-wa"/></svg> Pedir</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="producto-card" style="animation-delay:0.32s">
+                    <div class="producto-img-wrapper">
+                        <img class="producto-img" src="https://images.unsplash.com/photo-1709790028365-d49ae1e20f53?w=520&q=82" alt="" loading="lazy" width="520" height="224">
+                    </div>
+                    <div class="producto-info">
+                        <p class="producto-categoria">Jamones</p>
+                        <h3 class="producto-nombre">Paleta Ibérica de Bellota</h3>
+                        <p class="producto-descripcion">Paleta ibérica de cerdo de bellota con curación artesanal. Sabor concentrado e intenso. Ideal cortada a cuchillo en lonchas finas.</p>
+                        <div class="producto-footer">
+                            <span class="producto-precio">Consultar precio</span>
+                            <a href="https://wa.me/34958281687?text=Hola%2C%20me%20interesa%20%22Paleta%20Ib%C3%A9rica%20de%20Bellota%22.%20%C2%BFPueden%20informarme%20sobre%20precio%20y%20disponibilidad%3F" class="producto-btn" target="_blank" rel="noopener" aria-label="Pedir Paleta Ibérica de Bellota por WhatsApp"><svg class="icon-wa-sm" aria-hidden="true"><use href="#icon-wa"/></svg> Pedir</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="producto-card" style="animation-delay:0.40s">
+                    <div class="producto-img-wrapper">
+                        <img class="producto-img" src="https://images.unsplash.com/photo-1460122109654-7e46ab4fc9b9?w=520&q=82" alt="" loading="lazy" width="520" height="224">
+                        <span class="producto-badge">Práctico</span>
+                    </div>
+                    <div class="producto-info">
+                        <p class="producto-categoria">Jamones</p>
+                        <h3 class="producto-nombre">Jamón Ibérico en Lonchas al Vacío</h3>
+                        <p class="producto-descripcion">Jamón ibérico loncheado y envasado al vacío. Toda la calidad ibérica con la comodidad de abrirlo cuando quieras. Ideal para regalo.</p>
+                        <div class="producto-footer">
+                            <span class="producto-precio">Consultar precio</span>
+                            <a href="https://wa.me/34958281687?text=Hola%2C%20me%20interesa%20%22Jam%C3%B3n%20Ib%C3%A9rico%20en%20Lonchas%20al%20Vac%C3%ADo%22.%20%C2%BFPueden%20informarme%20sobre%20precio%20y%20disponibilidad%3F" class="producto-btn" target="_blank" rel="noopener" aria-label="Pedir Jamón Ibérico en Lonchas al Vacío por WhatsApp"><svg class="icon-wa-sm" aria-hidden="true"><use href="#icon-wa"/></svg> Pedir</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="productos-grid" id="panel-embutidos" role="tabpanel" aria-labelledby="tab-embutidos">
+                <article class="producto-card" style="animation-delay:0.00s">
+                    <div class="producto-img-wrapper">
+                        <img class="producto-img" src="https://images.unsplash.com/photo-1688895061981-4f7b10d4e4da?w=520&q=82" alt="" loading="lazy" width="520" height="224">
+                        <span class="producto-badge">Premium</span>
+                    </div>
+                    <div class="producto-info">
+                        <p class="producto-categoria">Embutidos Ibéricos</p>
+                        <h3 class="producto-nombre">Lomo Ibérico de Bellota</h3>
+                        <p class="producto-descripcion">Lomo embuchado de cerdo ibérico 100% de montanera. Curación artesanal que potencia aroma y sabor. La estrella de nuestra sección ibérica.</p>
+                        <div class="producto-footer">
+                            <span class="producto-precio">Consultar precio</span>
+                            <a href="https://wa.me/34958281687?text=Hola%2C%20me%20interesa%20%22Lomo%20Ib%C3%A9rico%20de%20Bellota%22.%20%C2%BFPueden%20informarme%20sobre%20precio%20y%20disponibilidad%3F" class="producto-btn" target="_blank" rel="noopener" aria-label="Pedir Lomo Ibérico de Bellota por WhatsApp"><svg class="icon-wa-sm" aria-hidden="true"><use href="#icon-wa"/></svg> Pedir</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="producto-card" style="animation-delay:0.08s">
+                    <div class="producto-img-wrapper">
+                        <img class="producto-img" src="https://images.unsplash.com/photo-1695606392727-d8b959879721?w=520&q=82" alt="" loading="lazy" width="520" height="224">
+                    </div>
+                    <div class="producto-info">
+                        <p class="producto-categoria">Embutidos Ibéricos</p>
+                        <h3 class="producto-nombre">Lomo Embuchado Ibérico</h3>
+                        <p class="producto-descripcion">Lomo de cerdo ibérico de cebo, embuchado con pimentón y ajo. Sabor intenso y textura firme. Perfecto en tabla o a rodajas finas.</p>
+                        <div class="producto-footer">
+                            <span class="producto-precio">Consultar precio</span>
+                            <a href="https://wa.me/34958281687?text=Hola%2C%20me%20interesa%20%22Lomo%20Embuchado%20Ib%C3%A9rico%22.%20%C2%BFPueden%20informarme%20sobre%20precio%20y%20disponibilidad%3F" class="producto-btn" target="_blank" rel="noopener" aria-label="Pedir Lomo Embuchado Ibérico por WhatsApp"><svg class="icon-wa-sm" aria-hidden="true"><use href="#icon-wa"/></svg> Pedir</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="producto-card" style="animation-delay:0.16s">
+                    <div class="producto-img-wrapper">
+                        <img class="producto-img" src="https://images.unsplash.com/photo-1460122109654-7e46ab4fc9b9?w=520&q=82" alt="" loading="lazy" width="520" height="224">
+                        <span class="producto-badge">Gourmet</span>
+                    </div>
+                    <div class="producto-info">
+                        <p class="producto-categoria">Embutidos Ibéricos</p>
+                        <h3 class="producto-nombre">Embutido Ibérico Variado — Chacinas Castillo</h3>
+                        <p class="producto-descripcion">Selección de chorizo, salchichón y morcón ibérico. Elaborados con receta tradicional, sin conservantes artificiales.</p>
+                        <div class="producto-footer">
+                            <span class="producto-precio">Consultar precio</span>
+                            <a href="https://wa.me/34958281687?text=Hola%2C%20me%20interesa%20%22Embutido%20Ib%C3%A9rico%20Variado%20%E2%80%94%20Chacinas%20Castillo%22.%20%C2%BFPueden%20informarme%20sobre%20precio%20y%20disponibilidad%3F" class="producto-btn" target="_blank" rel="noopener" aria-label="Pedir Embutido Ibérico Variado — Chacinas Castillo por WhatsApp"><svg class="icon-wa-sm" aria-hidden="true"><use href="#icon-wa"/></svg> Pedir</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="producto-card" style="animation-delay:0.24s">
+                    <div class="producto-img-wrapper">
+                        <img class="producto-img" src="https://images.unsplash.com/photo-1688895061981-4f7b10d4e4da?w=520&q=82" alt="" loading="lazy" width="520" height="224">
+                    </div>
+                    <div class="producto-info">
+                        <p class="producto-categoria">Embutidos Ibéricos</p>
+                        <h3 class="producto-nombre">Chorizo Ibérico Extra</h3>
+                        <p class="producto-descripcion">Chorizo de cerdo ibérico curado con pimentón de la Vera y especias naturales. Sabor ahumado y picante suave. Excelente en tabla.</p>
+                        <div class="producto-footer">
+                            <span class="producto-precio">Consultar precio</span>
+                            <a href="https://wa.me/34958281687?text=Hola%2C%20me%20interesa%20%22Chorizo%20Ib%C3%A9rico%20Extra%22.%20%C2%BFPueden%20informarme%20sobre%20precio%20y%20disponibilidad%3F" class="producto-btn" target="_blank" rel="noopener" aria-label="Pedir Chorizo Ibérico Extra por WhatsApp"><svg class="icon-wa-sm" aria-hidden="true"><use href="#icon-wa"/></svg> Pedir</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="producto-card" style="animation-delay:0.32s">
+                    <div class="producto-img-wrapper">
+                        <img class="producto-img" src="https://images.unsplash.com/photo-1678572823447-45fc146df43c?w=520&q=82" alt="" loading="lazy" width="520" height="224">
+                    </div>
+                    <div class="producto-info">
+                        <p class="producto-categoria">Embutidos Ibéricos</p>
+                        <h3 class="producto-nombre">Morcón Ibérico</h3>
+                        <p class="producto-descripcion">Embutido ibérico elaborado con los mejores cortes del cerdo, especiado y curado en tripa natural. Textura gruesa y sabor profundo.</p>
+                        <div class="producto-footer">
+                            <span class="producto-precio">Consultar precio</span>
+                            <a href="https://wa.me/34958281687?text=Hola%2C%20me%20interesa%20%22Morc%C3%B3n%20Ib%C3%A9rico%22.%20%C2%BFPueden%20informarme%20sobre%20precio%20y%20disponibilidad%3F" class="producto-btn" target="_blank" rel="noopener" aria-label="Pedir Morcón Ibérico por WhatsApp"><svg class="icon-wa-sm" aria-hidden="true"><use href="#icon-wa"/></svg> Pedir</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="producto-card" style="animation-delay:0.40s">
+                    <div class="producto-img-wrapper">
+                        <img class="producto-img" src="https://images.unsplash.com/photo-1695606392727-d8b959879721?w=520&q=82" alt="" loading="lazy" width="520" height="224">
+                        <span class="producto-badge">Temporada</span>
+                    </div>
+                    <div class="producto-info">
+                        <p class="producto-categoria">Embutidos Ibéricos</p>
+                        <h3 class="producto-nombre">Surtido Embutidos Navideños</h3>
+                        <p class="producto-descripcion">Selección especial de temporada: ibéricos curados, lomo y embutidos artesanos. Ideal para regalar o para disfrutar en familia.</p>
+                        <div class="producto-footer">
+                            <span class="producto-precio">Consultar precio</span>
+                            <a href="https://wa.me/34958281687?text=Hola%2C%20me%20interesa%20%22Surtido%20Embutidos%20Navide%C3%B1os%22.%20%C2%BFPueden%20informarme%20sobre%20precio%20y%20disponibilidad%3F" class="producto-btn" target="_blank" rel="noopener" aria-label="Pedir Surtido Embutidos Navideños por WhatsApp"><svg class="icon-wa-sm" aria-hidden="true"><use href="#icon-wa"/></svg> Pedir</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="productos-grid" id="panel-elaborados" role="tabpanel" aria-labelledby="tab-elaborados">
+                <article class="producto-card" style="animation-delay:0.00s">
+                    <div class="producto-img-wrapper">
+                        <img class="producto-img" src="https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=520&q=82" alt="" loading="lazy" width="520" height="224">
+                        <span class="producto-badge">Casero</span>
+                    </div>
+                    <div class="producto-info">
+                        <p class="producto-categoria">Elaborados Caseros</p>
+                        <h3 class="producto-nombre">Flamenquines Caseros</h3>
+                        <p class="producto-descripcion">Lomo de cerdo, jamón y queso rebozados a mano. Un clásico granadino en versión artesanal. Elaboración diaria, listos para freír.</p>
+                        <div class="producto-footer">
+                            <span class="producto-precio">Consultar precio</span>
+                            <a href="https://wa.me/34958281687?text=Hola%2C%20me%20interesa%20%22Flamenquines%20Caseros%22.%20%C2%BFPueden%20informarme%20sobre%20precio%20y%20disponibilidad%3F" class="producto-btn" target="_blank" rel="noopener" aria-label="Pedir Flamenquines Caseros por WhatsApp"><svg class="icon-wa-sm" aria-hidden="true"><use href="#icon-wa"/></svg> Pedir</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="producto-card" style="animation-delay:0.08s">
+                    <div class="producto-img-wrapper">
+                        <img class="producto-img" src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=520&q=82" alt="" loading="lazy" width="520" height="224">
+                        <span class="producto-badge">Casero</span>
+                    </div>
+                    <div class="producto-info">
+                        <p class="producto-categoria">Elaborados Caseros</p>
+                        <h3 class="producto-nombre">San Jacobos Caseros</h3>
+                        <p class="producto-descripcion">Rellenos de jamón york y queso, empanados en pan rallado artesano. Producto diario, siempre fresco. Listos para freír en minutos.</p>
+                        <div class="producto-footer">
+                            <span class="producto-precio">Consultar precio</span>
+                            <a href="https://wa.me/34958281687?text=Hola%2C%20me%20interesa%20%22San%20Jacobos%20Caseros%22.%20%C2%BFPueden%20informarme%20sobre%20precio%20y%20disponibilidad%3F" class="producto-btn" target="_blank" rel="noopener" aria-label="Pedir San Jacobos Caseros por WhatsApp"><svg class="icon-wa-sm" aria-hidden="true"><use href="#icon-wa"/></svg> Pedir</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="producto-card" style="animation-delay:0.16s">
+                    <div class="producto-img-wrapper">
+                        <img class="producto-img" src="https://images.unsplash.com/photo-1558030006-450675393462?w=520&q=82" alt="" loading="lazy" width="520" height="224">
+                    </div>
+                    <div class="producto-info">
+                        <p class="producto-categoria">Elaborados Caseros</p>
+                        <h3 class="producto-nombre">Cachopo de Ternera Casero</h3>
+                        <p class="producto-descripcion">Filete de ternera relleno de jamón serrano y queso, empanado a mano. Ración generosa ideal para compartir en familia.</p>
+                        <div class="producto-footer">
+                            <span class="producto-precio">Consultar precio</span>
+                            <a href="https://wa.me/34958281687?text=Hola%2C%20me%20interesa%20%22Cachopo%20de%20Ternera%20Casero%22.%20%C2%BFPueden%20informarme%20sobre%20precio%20y%20disponibilidad%3F" class="producto-btn" target="_blank" rel="noopener" aria-label="Pedir Cachopo de Ternera Casero por WhatsApp"><svg class="icon-wa-sm" aria-hidden="true"><use href="#icon-wa"/></svg> Pedir</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="producto-card" style="animation-delay:0.24s">
+                    <div class="producto-img-wrapper">
+                        <img class="producto-img" src="https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?w=520&q=82" alt="" loading="lazy" width="520" height="224">
+                        <span class="producto-badge">Popular</span>
+                    </div>
+                    <div class="producto-info">
+                        <p class="producto-categoria">Elaborados Caseros</p>
+                        <h3 class="producto-nombre">Costillas a la Miel</h3>
+                        <p class="producto-descripcion">Costillas de cerdo marinadas con nuestra receta especial de miel y especias. Solo al horno y el resultado es impresionante.</p>
+                        <div class="producto-footer">
+                            <span class="producto-precio">Consultar precio</span>
+                            <a href="https://wa.me/34958281687?text=Hola%2C%20me%20interesa%20%22Costillas%20a%20la%20Miel%22.%20%C2%BFPueden%20informarme%20sobre%20precio%20y%20disponibilidad%3F" class="producto-btn" target="_blank" rel="noopener" aria-label="Pedir Costillas a la Miel por WhatsApp"><svg class="icon-wa-sm" aria-hidden="true"><use href="#icon-wa"/></svg> Pedir</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="producto-card" style="animation-delay:0.32s">
+                    <div class="producto-img-wrapper">
+                        <img class="producto-img" src="https://images.unsplash.com/photo-1527477396000-e27163b481c2?w=520&q=82" alt="" loading="lazy" width="520" height="224">
+                    </div>
+                    <div class="producto-info">
+                        <p class="producto-categoria">Elaborados Caseros</p>
+                        <h3 class="producto-nombre">Alitas Barbacoa</h3>
+                        <p class="producto-descripcion">Alitas de pollo marinadas en salsa barbacoa artesanal. Horno o plancha. Sin colorantes ni conservantes añadidos.</p>
+                        <div class="producto-footer">
+                            <span class="producto-precio">Consultar precio</span>
+                            <a href="https://wa.me/34958281687?text=Hola%2C%20me%20interesa%20%22Alitas%20Barbacoa%22.%20%C2%BFPueden%20informarme%20sobre%20precio%20y%20disponibilidad%3F" class="producto-btn" target="_blank" rel="noopener" aria-label="Pedir Alitas Barbacoa por WhatsApp"><svg class="icon-wa-sm" aria-hidden="true"><use href="#icon-wa"/></svg> Pedir</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="producto-card" style="animation-delay:0.40s">
+                    <div class="producto-img-wrapper">
+                        <img class="producto-img" src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=520&q=82" alt="" loading="lazy" width="520" height="224">
+                    </div>
+                    <div class="producto-info">
+                        <p class="producto-categoria">Elaborados Caseros</p>
+                        <h3 class="producto-nombre">Brochetas y Pinchitos de Pollo</h3>
+                        <p class="producto-descripcion">Brochetas de pollo adobadas con especias naturales al estilo moruno. Barbacoa, horno o plancha. Elaboración artesana diaria.</p>
+                        <div class="producto-footer">
+                            <span class="producto-precio">Consultar precio</span>
+                            <a href="https://wa.me/34958281687?text=Hola%2C%20me%20interesa%20%22Brochetas%20y%20Pinchitos%20de%20Pollo%22.%20%C2%BFPueden%20informarme%20sobre%20precio%20y%20disponibilidad%3F" class="producto-btn" target="_blank" rel="noopener" aria-label="Pedir Brochetas y Pinchitos de Pollo por WhatsApp"><svg class="icon-wa-sm" aria-hidden="true"><use href="#icon-wa"/></svg> Pedir</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="productos-grid" id="panel-quesos" role="tabpanel" aria-labelledby="tab-quesos">
+                <article class="producto-card" style="animation-delay:0.00s">
+                    <div class="producto-img-wrapper">
+                        <img class="producto-img" src="https://images.unsplash.com/photo-1655662844300-e59c3d2e7587?w=520&q=82" alt="" loading="lazy" width="520" height="224">
+                        <span class="producto-badge">D.O.P.</span>
+                    </div>
+                    <div class="producto-info">
+                        <p class="producto-categoria">Quesos</p>
+                        <h3 class="producto-nombre">Queso Manchego Curado D.O.P.</h3>
+                        <p class="producto-descripcion">Queso manchego con curación de 6 meses. Sabor intenso y textura firme. Perfecto acompañado de ibéricos, membrillo y un buen vino.</p>
+                        <div class="producto-footer">
+                            <span class="producto-precio">Consultar precio</span>
+                            <a href="https://wa.me/34958281687?text=Hola%2C%20me%20interesa%20%22Queso%20Manchego%20Curado%20D.O.P.%22.%20%C2%BFPueden%20informarme%20sobre%20precio%20y%20disponibilidad%3F" class="producto-btn" target="_blank" rel="noopener" aria-label="Pedir Queso Manchego Curado D.O.P. por WhatsApp"><svg class="icon-wa-sm" aria-hidden="true"><use href="#icon-wa"/></svg> Pedir</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="producto-card" style="animation-delay:0.08s">
+                    <div class="producto-img-wrapper">
+                        <img class="producto-img" src="https://images.unsplash.com/photo-1683314573422-649a3c6ad784?w=520&q=82" alt="" loading="lazy" width="520" height="224">
+                    </div>
+                    <div class="producto-info">
+                        <p class="producto-categoria">Quesos</p>
+                        <h3 class="producto-nombre">Queso de Oveja Semicurado</h3>
+                        <p class="producto-descripcion">Artesanal de leche de oveja con curación media. Sabor suave y cremoso. Ideal para tablas de quesos y aperitivos con embutidos.</p>
+                        <div class="producto-footer">
+                            <span class="producto-precio">Consultar precio</span>
+                            <a href="https://wa.me/34958281687?text=Hola%2C%20me%20interesa%20%22Queso%20de%20Oveja%20Semicurado%22.%20%C2%BFPueden%20informarme%20sobre%20precio%20y%20disponibilidad%3F" class="producto-btn" target="_blank" rel="noopener" aria-label="Pedir Queso de Oveja Semicurado por WhatsApp"><svg class="icon-wa-sm" aria-hidden="true"><use href="#icon-wa"/></svg> Pedir</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="producto-card" style="animation-delay:0.16s">
+                    <div class="producto-img-wrapper">
+                        <img class="producto-img" src="https://images.unsplash.com/photo-1678572823447-45fc146df43c?w=520&q=82" alt="" loading="lazy" width="520" height="224">
+                        <span class="producto-badge">Variedad</span>
+                    </div>
+                    <div class="producto-info">
+                        <p class="producto-categoria">Quesos</p>
+                        <h3 class="producto-nombre">Selección en Todas las Curaciones</h3>
+                        <p class="producto-descripcion">Tierno, semicurado, curado y añejo. Te asesoramos en cada etapa de maduración para que siempre aciertes con tu elección.</p>
+                        <div class="producto-footer">
+                            <span class="producto-precio">Consultar precio</span>
+                            <a href="https://wa.me/34958281687?text=Hola%2C%20me%20interesa%20%22Selecci%C3%B3n%20en%20Todas%20las%20Curaciones%22.%20%C2%BFPueden%20informarme%20sobre%20precio%20y%20disponibilidad%3F" class="producto-btn" target="_blank" rel="noopener" aria-label="Pedir Selección en Todas las Curaciones por WhatsApp"><svg class="icon-wa-sm" aria-hidden="true"><use href="#icon-wa"/></svg> Pedir</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="productos-grid" id="panel-entrantes" role="tabpanel" aria-labelledby="tab-entrantes">
+                <article class="producto-card" style="animation-delay:0.00s">
+                    <div class="producto-img-wrapper">
+                        <img class="producto-img" src="https://images.unsplash.com/photo-1678572823447-45fc146df43c?w=520&q=82" alt="" loading="lazy" width="520" height="224">
+                        <span class="producto-badge">Casero</span>
+                    </div>
+                    <div class="producto-info">
+                        <p class="producto-categoria">Entrantes &amp; Aperitivos</p>
+                        <h3 class="producto-nombre">Canapés de Hojaldre y Bizcocho</h3>
+                        <p class="producto-descripcion">Artesanos sobre base de hojaldre o bizcocho con rellenos variados: jamón, queso, salmón y paté. Elaboración propia, listos para servir.</p>
+                        <div class="producto-footer">
+                            <span class="producto-precio">Consultar precio</span>
+                            <a href="https://wa.me/34958281687?text=Hola%2C%20me%20interesa%20%22Canap%C3%A9s%20de%20Hojaldre%20y%20Bizcocho%22.%20%C2%BFPueden%20informarme%20sobre%20precio%20y%20disponibilidad%3F" class="producto-btn" target="_blank" rel="noopener" aria-label="Pedir Canapés de Hojaldre y Bizcocho por WhatsApp"><svg class="icon-wa-sm" aria-hidden="true"><use href="#icon-wa"/></svg> Pedir</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="producto-card" style="animation-delay:0.08s">
+                    <div class="producto-img-wrapper">
+                        <img class="producto-img" src="https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=520&q=82" alt="" loading="lazy" width="520" height="224">
+                    </div>
+                    <div class="producto-info">
+                        <p class="producto-categoria">Entrantes &amp; Aperitivos</p>
+                        <h3 class="producto-nombre">Empanadas Artesanas</h3>
+                        <p class="producto-descripcion">Caseras en tres sabores: atún con tomate, jamón y queso, y salmón. El entrante perfecto para cualquier reunión o celebración.</p>
+                        <div class="producto-footer">
+                            <span class="producto-precio">Consultar precio</span>
+                            <a href="https://wa.me/34958281687?text=Hola%2C%20me%20interesa%20%22Empanadas%20Artesanas%22.%20%C2%BFPueden%20informarme%20sobre%20precio%20y%20disponibilidad%3F" class="producto-btn" target="_blank" rel="noopener" aria-label="Pedir Empanadas Artesanas por WhatsApp"><svg class="icon-wa-sm" aria-hidden="true"><use href="#icon-wa"/></svg> Pedir</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="producto-card" style="animation-delay:0.16s">
+                    <div class="producto-img-wrapper">
+                        <img class="producto-img" src="https://images.unsplash.com/photo-1709790028365-d49ae1e20f53?w=520&q=82" alt="" loading="lazy" width="520" height="224">
+                        <span class="producto-badge">Granada</span>
+                    </div>
+                    <div class="producto-info">
+                        <p class="producto-categoria">Entrantes &amp; Aperitivos</p>
+                        <h3 class="producto-nombre">Vasitos de Salmorejo con Jamón</h3>
+                        <p class="producto-descripcion">Salmorejo granadino casero en vasito individual con jamón serrano y huevo cocido. La tapa de Granada en versión gourmet.</p>
+                        <div class="producto-footer">
+                            <span class="producto-precio">Consultar precio</span>
+                            <a href="https://wa.me/34958281687?text=Hola%2C%20me%20interesa%20%22Vasitos%20de%20Salmorejo%20con%20Jam%C3%B3n%22.%20%C2%BFPueden%20informarme%20sobre%20precio%20y%20disponibilidad%3F" class="producto-btn" target="_blank" rel="noopener" aria-label="Pedir Vasitos de Salmorejo con Jamón por WhatsApp"><svg class="icon-wa-sm" aria-hidden="true"><use href="#icon-wa"/></svg> Pedir</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="producto-card" style="animation-delay:0.24s">
+                    <div class="producto-img-wrapper">
+                        <img class="producto-img" src="https://images.unsplash.com/photo-1695606392727-d8b959879721?w=520&q=82" alt="" loading="lazy" width="520" height="224">
+                    </div>
+                    <div class="producto-info">
+                        <p class="producto-categoria">Entrantes &amp; Aperitivos</p>
+                        <h3 class="producto-nombre">Copas de Gambas al Cóctel</h3>
+                        <p class="producto-descripcion">Gambas cocidas con salsa cóctel casera en copa individual. Elegante y sabroso. Un clásico que siempre triunfa.</p>
+                        <div class="producto-footer">
+                            <span class="producto-precio">Consultar precio</span>
+                            <a href="https://wa.me/34958281687?text=Hola%2C%20me%20interesa%20%22Copas%20de%20Gambas%20al%20C%C3%B3ctel%22.%20%C2%BFPueden%20informarme%20sobre%20precio%20y%20disponibilidad%3F" class="producto-btn" target="_blank" rel="noopener" aria-label="Pedir Copas de Gambas al Cóctel por WhatsApp"><svg class="icon-wa-sm" aria-hidden="true"><use href="#icon-wa"/></svg> Pedir</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="producto-card" style="animation-delay:0.32s">
+                    <div class="producto-img-wrapper">
+                        <img class="producto-img" src="https://images.unsplash.com/photo-1678572823447-45fc146df43c?w=520&q=82" alt="" loading="lazy" width="520" height="224">
+                        <span class="producto-badge">Gourmet</span>
+                    </div>
+                    <div class="producto-info">
+                        <p class="producto-categoria">Entrantes &amp; Aperitivos</p>
+                        <h3 class="producto-nombre">Tabla Ibérica de Embutidos y Quesos</h3>
+                        <p class="producto-descripcion">Selección de jamón, lomo, chorizo y salchichón ibérico con quesos curados. Presentación en tabla lista para servir.</p>
+                        <div class="producto-footer">
+                            <span class="producto-precio">Consultar precio</span>
+                            <a href="https://wa.me/34958281687?text=Hola%2C%20me%20interesa%20%22Tabla%20Ib%C3%A9rica%20de%20Embutidos%20y%20Quesos%22.%20%C2%BFPueden%20informarme%20sobre%20precio%20y%20disponibilidad%3F" class="producto-btn" target="_blank" rel="noopener" aria-label="Pedir Tabla Ibérica de Embutidos y Quesos por WhatsApp"><svg class="icon-wa-sm" aria-hidden="true"><use href="#icon-wa"/></svg> Pedir</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="producto-card" style="animation-delay:0.40s">
+                    <div class="producto-img-wrapper">
+                        <img class="producto-img" src="https://images.unsplash.com/photo-1695606392727-d8b959879721?w=520&q=82" alt="" loading="lazy" width="520" height="224">
+                        <span class="producto-badge">Evento</span>
+                    </div>
+                    <div class="producto-info">
+                        <p class="producto-categoria">Entrantes &amp; Aperitivos</p>
+                        <h3 class="producto-nombre">Tabla Completa: Carnes, Quesos y Patés</h3>
+                        <p class="producto-descripcion">Tabla premium con carnes curadas, quesos de distintas curaciones y patés artesanos. Presentación cuidada, lista para tu mesa.</p>
+                        <div class="producto-footer">
+                            <span class="producto-precio">Consultar precio</span>
+                            <a href="https://wa.me/34958281687?text=Hola%2C%20me%20interesa%20%22Tabla%20Completa%3A%20Carnes%2C%20Quesos%20y%20Pat%C3%A9s%22.%20%C2%BFPueden%20informarme%20sobre%20precio%20y%20disponibilidad%3F" class="producto-btn" target="_blank" rel="noopener" aria-label="Pedir Tabla Completa: Carnes, Quesos y Patés por WhatsApp"><svg class="icon-wa-sm" aria-hidden="true"><use href="#icon-wa"/></svg> Pedir</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <div class="productos-cta">
+                <p>¿Buscas algo especial o quieres un presupuesto a medida?</p>
+                <a href="https://wa.me/34958281687?text=Hola%2C%20me%20gustar%C3%ADa%20consultar%20disponibilidad%20y%20precios" class="btn btn-primary" target="_blank" rel="noopener">Consultar disponibilidad</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================== CELEBRACIONES ======================== -->
+    <section class="celebraciones" id="celebraciones">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Bodas · Bautizos · Empresas · Reuniones</span>
+                <h2 class="section-title" style="color:#fff">Packs para Celebraciones<br><em>y Eventos</em></h2>
+                <p class="section-subtitle" style="color:rgba(255,255,255,.55)">Preparamos todo lo que necesitas para ser un anfitrión de diez. Elige tu pack o pídenos uno completamente a medida.</p>
+            </div>
+
+            <div class="packs-grid">
+                <div class="pack-card">
+                    <div class="pack-header">
+                        <h3 class="pack-nombre">Pack Aperitivo</h3>
+                        <span class="pack-personas">10 – 15 personas</span>
+                    </div>
+                    <p class="pack-descripcion">Perfecto para reuniones de empresa, cumpleaños íntimos o cenas de amigos.</p>
+                    <ul class="pack-incluye">
+                        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M4.5 12.75l6 6 9-13.5"/></svg> Tabla de embutidos ibéricos variados</li>
+                        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M4.5 12.75l6 6 9-13.5"/></svg> Surtido de quesos curados (2 tipos)</li>
+                        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M4.5 12.75l6 6 9-13.5"/></svg> 2 variedades de canapés artesanos</li>
+                        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M4.5 12.75l6 6 9-13.5"/></svg> Empanada artesana (1 tipo a elegir)</li>
+                    </ul>
+                    <a href="https://wa.me/34958281687?text=Hola%2C%20me%20interesa%20el%20%22Pack%20Aperitivo%22%20para%2010%20%E2%80%93%2015%20personas.%20%C2%BFPueden%20darme%20informaci%C3%B3n%20y%20presupuesto%3F" class="pack-btn" target="_blank" rel="noopener"><svg class="icon-wa-sm" aria-hidden="true"><use href="#icon-wa"/></svg> Solicitar presupuesto</a>
+                </div>
+                <div class="pack-card pack-card--destacado">
+                    <span class="pack-badge-top">Más popular</span>
+                    <div class="pack-header">
+                        <h3 class="pack-nombre">Pack Reunión</h3>
+                        <span class="pack-personas">20 – 30 personas</span>
+                    </div>
+                    <p class="pack-descripcion">La opción más popular para graduaciones, reuniones de empresa y celebraciones familiares.</p>
+                    <ul class="pack-incluye">
+                        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M4.5 12.75l6 6 9-13.5"/></svg> Tabla ibérica completa (jamón + embutidos)</li>
+                        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M4.5 12.75l6 6 9-13.5"/></svg> Surtido de empanadas artesanas (3 tipos)</li>
+                        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M4.5 12.75l6 6 9-13.5"/></svg> Canapés de hojaldre y bizcocho variados</li>
+                        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M4.5 12.75l6 6 9-13.5"/></svg> Vasitos de salmorejo con jamón y huevo</li>
+                        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M4.5 12.75l6 6 9-13.5"/></svg> Selección de quesos curados</li>
+                    </ul>
+                    <a href="https://wa.me/34958281687?text=Hola%2C%20me%20interesa%20el%20%22Pack%20Reuni%C3%B3n%22%20para%2020%20%E2%80%93%2030%20personas.%20%C2%BFPueden%20darme%20informaci%C3%B3n%20y%20presupuesto%3F" class="pack-btn pack-btn--gold" target="_blank" rel="noopener"><svg class="icon-wa-sm" aria-hidden="true"><use href="#icon-wa"/></svg> Solicitar presupuesto</a>
+                </div>
+                <div class="pack-card">
+                    <div class="pack-header">
+                        <h3 class="pack-nombre">Pack Celebración Premium</h3>
+                        <span class="pack-personas">30 – 50 personas</span>
+                    </div>
+                    <p class="pack-descripcion">Para bodas, bautizos, comuniones y grandes celebraciones que merecen lo mejor.</p>
+                    <ul class="pack-incluye">
+                        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M4.5 12.75l6 6 9-13.5"/></svg> Jamón ibérico entero + tabla embutidos bellota</li>
+                        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M4.5 12.75l6 6 9-13.5"/></svg> Selección completa quesos curados</li>
+                        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M4.5 12.75l6 6 9-13.5"/></svg> Canapés hojaldre y bizcocho (3 variedades)</li>
+                        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M4.5 12.75l6 6 9-13.5"/></svg> Empanadas artesanas (3 tipos)</li>
+                        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M4.5 12.75l6 6 9-13.5"/></svg> Vasitos salmorejo + copas gambas al cóctel</li>
+                        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M4.5 12.75l6 6 9-13.5"/></svg> Elaborados caseros (flamenquines, san jacobos)</li>
+                        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M4.5 12.75l6 6 9-13.5"/></svg> Brochetas y pinchitos de pollo</li>
+                    </ul>
+                    <a href="https://wa.me/34958281687?text=Hola%2C%20me%20interesa%20el%20%22Pack%20Celebraci%C3%B3n%20Premium%22%20para%2030%20%E2%80%93%2050%20personas.%20%C2%BFPueden%20darme%20informaci%C3%B3n%20y%20presupuesto%3F" class="pack-btn" target="_blank" rel="noopener"><svg class="icon-wa-sm" aria-hidden="true"><use href="#icon-wa"/></svg> Solicitar presupuesto</a>
+                </div>
+                <div class="pack-card">
+                    <div class="pack-header">
+                        <h3 class="pack-nombre">Pack Gran Evento</h3>
+                        <span class="pack-personas">50+ personas</span>
+                    </div>
+                    <p class="pack-descripcion">Diseñado 100% a tu medida. Cuéntanos qué necesitas y lo preparamos todo.</p>
+                    <ul class="pack-incluye">
+                        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M4.5 12.75l6 6 9-13.5"/></svg> Composición 100% personalizada</li>
+                        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M4.5 12.75l6 6 9-13.5"/></svg> Asesoramiento y planificación incluidos</li>
+                        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M4.5 12.75l6 6 9-13.5"/></svg> Entrega y presentación a domicilio</li>
+                        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M4.5 12.75l6 6 9-13.5"/></svg> Sin mínimo de referencias ni productos</li>
+                    </ul>
+                    <a href="https://wa.me/34958281687?text=Hola%2C%20me%20interesa%20el%20%22Pack%20Gran%20Evento%22%20para%2050%2B%20personas.%20%C2%BFPueden%20darme%20informaci%C3%B3n%20y%20presupuesto%3F" class="pack-btn" target="_blank" rel="noopener"><svg class="icon-wa-sm" aria-hidden="true"><use href="#icon-wa"/></svg> Solicitar presupuesto</a>
+                </div>
+            </div>
+
+            <!-- ── PERSONALIZACIÓN DE PACKS ── -->
+            <div class="pack-personaliza">
+                <div class="pack-personaliza-img">
+                    <img src="https://images.unsplash.com/photo-1678572823447-45fc146df43c?w=900&q=82"
+                         alt="Tabla de embutidos y quesos variados vista desde arriba"
+                         loading="lazy">
+                </div>
+                <div class="pack-personaliza-texto">
+                    <span class="pack-personaliza-tag">Totalmente a medida</span>
+                    <h3>Crea tu Pack<br><em>Personalizado</em></h3>
+                    <p>¿Tu celebración tiene necesidades especiales? Sin problema. Diseñamos la selección perfecta de productos ibéricos adaptada a tu número de invitados, preferencias y presupuesto.</p>
+                    <ul class="pack-personaliza-pasos">
+                        <li>
+                            <span class="pp-num">1</span>
+                            <div>
+                                <strong>Cuéntanos tu evento</strong>
+                                <p>Número de invitados, tipo de celebración (boda, bautizo, empresa, reunión…) y fecha prevista.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="pp-num">2</span>
+                            <div>
+                                <strong>Elegimos juntos los productos</strong>
+                                <p>Te proponemos la combinación ideal de jamones ibéricos, embutidos, quesos y elaborados según tu gusto.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="pp-num">3</span>
+                            <div>
+                                <strong>Recibe tu pedido listo</strong>
+                                <p>Preparamos todo con la máxima calidad. Recógelo en tienda o recíbelo donde lo necesites.</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <a href="https://wa.me/34958281687?text=Hola%2C%20me%20gustar%C3%ADa%20crear%20un%20pack%20personalizado%20para%20mi%20evento.%20Somos%20" class="btn btn-whatsapp" target="_blank" rel="noopener">
+                        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.554 4.118 1.524 5.847L.057 23.5l5.817-1.525A11.943 11.943 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.894a9.884 9.884 0 01-5.043-1.381l-.361-.214-3.752.984.999-3.648-.235-.374A9.86 9.86 0 012.106 12C2.106 6.577 6.577 2.106 12 2.106S21.894 6.577 21.894 12 17.423 21.894 12 21.894z"/></svg>
+                        Personalizar mi pack ahora
+                    </a>
+                </div>
+            </div>
+
+            <div class="celebraciones-extra">
+                <div class="extra-box">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09z"/></svg>
+                    <p><strong>Personalización total:</strong> Cuéntanos el número de personas, tus preferencias y presupuesto. Lo hacemos a tu medida.</p>
+                </div>
+                <div class="extra-box">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M8.25 18.75a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 01-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 00-3.213-9.193 2.056 2.056 0 00-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 00-10.026 0 1.106 1.106 0 00-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12"/></svg>
+                    <p><strong>Entrega a domicilio:</strong> Llevamos tu pedido donde lo necesites. También puedes recogerlo en tienda.</p>
+                </div>
+                <div class="extra-box">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                    <p><strong>Antelación recomendada:</strong> Para eventos grandes, consúltanos con varios días de antelación para asegurar disponibilidad.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================== BANNER CITA ======================== -->
+    <section class="banner-cita" aria-hidden="true">
+        <div class="banner-overlay"></div>
+        <div class="banner-content">
+            <span class="banner-deco">&ldquo;</span>
+            <p class="banner-quote">La calidad no es un accidente, es el resultado de cuatro décadas de esfuerzo, selección y pasión por el producto ibérico.</p>
+            <span class="banner-author">— Adolfo Martínez, fundador</span>
+        </div>
+    </section>
+
+    <!-- ======================== NOSOTROS ======================== -->
+    <section class="nosotros" id="nosotros">
+        <div class="container">
+            <div class="nosotros-grid">
+                <div class="nosotros-imagen">
+                    <div class="imagen-frame">
+                        <img src="https://images.unsplash.com/photo-1625236602157-01a785251f0e?w=700&q=80"
+                             alt="Jamones curados colgados en el mostrador de una tienda"
+                             loading="lazy" width="700" height="530">
+                        <div class="imagen-badge">
+                            <span class="badge-number">40+</span>
+                            <span class="badge-text">Años de<br>experiencia</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="nosotros-texto">
+                    <span class="section-tag">Nuestra historia</span>
+                    <h2 class="section-title">Tradición y Pasión<br>por el Producto Ibérico</h2>
+                    <p>Desde 1984, <strong>Adolfo Martínez Gourmet</strong> ha sido un referente en Granada para todos aquellos que buscan la excelencia en charcutería artesanal y productos cárnicos de calidad.</p>
+                    <p>Ubicados en el corazón del <strong>centro histórico de Granada</strong>, en la Calle San Juan de Dios, trabajamos con los mejores secaderos de La Alpujarra y Guadix para traerte los jamones más auténticos de la tierra.</p>
+                    <p>Nuestra filosofía es sencilla: seleccionar solo lo mejor, elaborar nuestros propios productos caseros cada día y ofrecer un trato cercano y profesional a cada cliente. Por eso llevamos más de 40 años con las puertas abiertas.</p>
+                    <div class="nosotros-stats">
+                        <div class="stat">
+                            <span class="stat-number">40+</span>
+                            <span class="stat-label">Años de historia</span>
+                        </div>
+                        <a class="stat" href="https://www.google.com/maps/search/?api=1&amp;query=Adolfo+Mart%C3%ADnez+Gourmet%2C+Calle+San+Juan+de+Dios+50%2C+Granada" target="_blank" rel="noopener">
+                            <span class="stat-number">4,8★</span>
+                            <span class="stat-label">Valoración Google</span>
+                        </a>
+                        <div class="stat">
+                            <span class="stat-number">Granada</span>
+                            <span class="stat-label">Centro histórico</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================== CÓMO COMPRAR ======================== -->
+    <section class="como-comprar" id="como-comprar">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Fácil y rápido</span>
+                <h2 class="section-title">¿Cómo Hacer tu Pedido?</h2>
+                <p class="section-subtitle">En tres simples pasos tienes nuestros productos gourmet en tu mesa</p>
+            </div>
+            <div class="pasos-grid">
+                <div class="paso">
+                    <div class="paso-numero" aria-hidden="true">01</div>
+                    <div class="paso-icono" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M8.25 6.75h12M8.25 12h12m-12 5.25h12M3.75 6.75h.007v.008H3.75V6.75zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zM3.75 12h.007v.008H3.75V12zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm-.375 5.25h.007v.008H3.75v-.008zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"/></svg>
+                    </div>
+                    <h3>Elige tus productos</h3>
+                    <p>Explora nuestra selección de jamones, ibéricos, elaborados caseros y entrantes para eventos. Te asesoramos encantados.</p>
+                </div>
+                <div class="paso-conector" aria-hidden="true"></div>
+                <div class="paso">
+                    <div class="paso-numero" aria-hidden="true">02</div>
+                    <div class="paso-icono" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.554 4.118 1.524 5.847L.057 23.5l5.817-1.525A11.943 11.943 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.894a9.884 9.884 0 01-5.043-1.381l-.361-.214-3.752.984.999-3.648-.235-.374A9.86 9.86 0 012.106 12C2.106 6.577 6.577 2.106 12 2.106S21.894 6.577 21.894 12 17.423 21.894 12 21.894z"/></svg>
+                    </div>
+                    <h3>Contáctanos</h3>
+                    <p>Envíanos tu pedido por WhatsApp al <strong>958 28 16 87</strong> o llámanos. Te confirmamos disponibilidad y precio al momento.</p>
+                </div>
+                <div class="paso-conector" aria-hidden="true"></div>
+                <div class="paso">
+                    <div class="paso-numero" aria-hidden="true">03</div>
+                    <div class="paso-icono" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"/></svg>
+                    </div>
+                    <h3>Recibe o recoge</h3>
+                    <p>Pásate por nuestra tienda en el centro histórico de Granada o recibe tu pedido a domicilio. Cómodo y sencillo.</p>
+                </div>
+            </div>
+            <div class="como-comprar-cta">
+                <a href="https://wa.me/34958281687?text=Hola%2C%20quisiera%20hacer%20un%20pedido%20en%20Adolfo%20Mart%C3%ADnez%20Gourmet" class="btn btn-whatsapp btn-lg" target="_blank" rel="noopener">
+                    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.554 4.118 1.524 5.847L.057 23.5l5.817-1.525A11.943 11.943 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.894a9.884 9.884 0 01-5.043-1.381l-.361-.214-3.752.984.999-3.648-.235-.374A9.86 9.86 0 012.106 12C2.106 6.577 6.577 2.106 12 2.106S21.894 6.577 21.894 12 17.423 21.894 12 21.894z"/></svg>
+                    Hacer mi pedido ahora
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================== CONTACTO ======================== -->
+    <section class="contacto" id="contacto">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Estamos aquí</span>
+                <h2 class="section-title">Encuéntranos en Granada</h2>
+            </div>
+            <div class="contacto-grid">
+                <div class="contacto-info">
+                    <div class="info-item">
+                        <div class="info-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"/><path d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"/></svg>
+                        </div>
+                        <div>
+                            <h3>Dirección</h3>
+                            <address>Calle San Juan de Dios, 50<br>18001 Granada, España</address>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"/></svg>
+                        </div>
+                        <div>
+                            <h3>Teléfono</h3>
+                            <p><a href="tel:+34958281687">958 28 16 87</a></p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon info-icon--whatsapp" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.554 4.118 1.524 5.847L.057 23.5l5.817-1.525A11.943 11.943 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.894a9.884 9.884 0 01-5.043-1.381l-.361-.214-3.752.984.999-3.648-.235-.374A9.86 9.86 0 012.106 12C2.106 6.577 6.577 2.106 12 2.106S21.894 6.577 21.894 12 17.423 21.894 12 21.894z"/></svg>
+                        </div>
+                        <div>
+                            <h3>WhatsApp</h3>
+                            <a href="https://wa.me/34958281687?text=Hola%2C%20me%20gustar%C3%ADa%20hacer%20un%20pedido" class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener">Escribir por WhatsApp</a>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                        </div>
+                        <div>
+                            <h3>Horario</h3>
+                            <p>
+                                <strong>Lun – Jue:</strong> 9:30 – 14:30 · 17:45 – 20:45<br>
+                                <strong>Sábado:</strong> 9:30 – 14:30<br>
+                                <small>Viernes y domingo cerrado · Consulta festivos</small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contacto-mapa">
+                    <div class="mapa-box" id="mapa" data-src="https://www.google.com/maps?q=Calle+San+Juan+de+Dios+50,+18001+Granada&amp;z=17&amp;output=embed">
+                        <svg class="mapa-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"/><path d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"/></svg>
+                        <p class="mapa-dir">Calle San Juan de Dios, 50 · 18001 Granada</p>
+                        <p class="mapa-zona">Centro histórico de Granada</p>
+                        <div class="mapa-acciones">
+                            <button type="button" class="btn btn-primary btn-sm" id="mapaCargar">Ver mapa aquí</button>
+                            <a class="btn btn-outline btn-sm" href="https://www.google.com/maps/dir/?api=1&amp;destination=Calle+San+Juan+de+Dios+50%2C+18001+Granada" target="_blank" rel="noopener">Cómo llegar</a>
+                        </div>
+                        <p class="mapa-aviso">Al cargar el mapa, Google puede instalar cookies. <a href="cookies.html">Más información</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================== FOOTER ======================== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="nav-logo">
+                        <span class="logo-text">Adolfo Martínez</span>
+                        <span class="logo-subtitle">GOURMET · GRANADA</span>
+                    </div>
+                    <p>Más de 40 años llevando a tu mesa los mejores jamones ibéricos, embutidos artesanales y elaborados caseros del centro de Granada.</p>
+                </div>
+                <div class="footer-links">
+                    <p class="footer-title">Navegación</p>
+                    <ul>
+                        <li><a href="#productos">Productos</a></li>
+                        <li><a href="#celebraciones">Celebraciones</a></li>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#como-comprar">Cómo comprar</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <p class="footer-title">Productos</p>
+                    <ul>
+                        <li><a href="#productos">Jamones Ibéricos</a></li>
+                        <li><a href="#productos">Embutidos</a></li>
+                        <li><a href="#productos">Elaborados Caseros</a></li>
+                        <li><a href="#productos">Quesos</a></li>
+                        <li><a href="#celebraciones">Packs Celebraciones</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <p class="footer-title">Contacto &amp; Horario</p>
+                    <address>
+                        <p>C/ San Juan de Dios, 50 · 18001 Granada</p>
+                        <p><a href="tel:+34958281687">958 28 16 87</a></p>
+                        <p style="font-size:.82rem;margin-top:8px">
+                            Lun–Jue: 9:30–14:30 / 17:45–20:45<br>
+                            Sábado: 9:30–14:30
+                        </p>
+                    </address>
+                    <a href="https://wa.me/34958281687" class="footer-whatsapp" target="_blank" rel="noopener">
+                        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.554 4.118 1.524 5.847L.057 23.5l5.817-1.525A11.943 11.943 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.894a9.884 9.884 0 01-5.043-1.381l-.361-.214-3.752.984.999-3.648-.235-.374A9.86 9.86 0 012.106 12C2.106 6.577 6.577 2.106 12 2.106S21.894 6.577 21.894 12 17.423 21.894 12 21.894z"/></svg>
+                        Escríbenos
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="year">2026</span> Adolfo Martínez Gourmet · Todos los derechos reservados</p>
+                <ul class="footer-legal">
+                    <li><a href="aviso-legal.html">Aviso legal</a></li>
+                    <li><a href="privacidad.html">Política de privacidad</a></li>
+                    <li><a href="cookies.html">Política de cookies</a></li>
+                </ul>
+                <p>Charcutería premium en Granada &middot; C/ San Juan de Dios, 50</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ======================== BOTÓN WHATSAPP FLOTANTE ======================== -->
+    <a href="https://wa.me/34958281687?text=Hola%2C%20me%20gustar%C3%ADa%20obtener%20informaci%C3%B3n%20sobre%20sus%20productos"
+       class="whatsapp-float"
+       target="_blank"
+       rel="noopener"
+       aria-label="Contactar por WhatsApp">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.554 4.118 1.524 5.847L.057 23.5l5.817-1.525A11.943 11.943 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.894a9.884 9.884 0 01-5.043-1.381l-.361-.214-3.752.984.999-3.648-.235-.374A9.86 9.86 0 012.106 12C2.106 6.577 6.577 2.106 12 2.106S21.894 6.577 21.894 12 17.423 21.894 12 21.894z"/></svg>
+        <span class="whatsapp-tooltip">¿Hablamos?</span>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
